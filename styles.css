@@ -109,6 +109,10 @@ body {
   margin-bottom: 0;
 }
 
+.links {
+  text-decoration: none;
+}
+
 .personal-info {
   background: #fff;
   padding: 20px;
