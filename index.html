@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chiemezie's Personal Website HNG</title>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tech Goals - Next Two Years</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+
+    <body>
+        <header class="header">
+            <h1 class="header__title">My Tech Goals</h1>
+        </header>
+        <div class="sidebar" id="sidebar">
+            <button class="sidebar__toggle-button" id="toggleButton"><i class="fas fa-bars"></i> Menu</button>
+            <nav class="sidebar__menu hidden" id="menu">
+                <ul class="sidebar__menu-list">
+                    <li class="sidebar__menu-item"><a href="#year1" class="sidebar__menu-link">Year 1 Goals</a></li>
+                    <li class="sidebar__menu-item"><a href="#year2" class="sidebar__menu-link">Year 2 Goals</a></li>
+                    <li class="sidebar__menu-item"><a href="#personalInfo" class="sidebar__menu-link">Personal Info</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <main class="main">
+
+            <section class="personal-info" id="personalInfo">
+                <h2 class="personal-info__title">Personal Information</h2>
+                <div class="personal-info__item">
+                    <img class="personal-info__image" src="chiemezie.jpg" alt="Profile Picture"
+                        data-testid="slackProfilePicture">
+                </div>
+                <div class="personal-info__item">
+                    <p><strong>Slack Display Name:</strong> <span data-testid="slackDisplayName">Chiemezie</span></p>
+                </div>
+                <div class="personal-info__item">
+                    <p><strong>Slack Email:</strong> <span data-testid="slackEmail">chiemezieok3@gmail.com</span></p>
+                </div>
+                <div class="personal-info__item">
+                    <p><strong>Current Time (UTC):</strong> <span data-testid="currentTimeUTC"
+                            id="currentTimeUTC">Loading...</span></p>
+                </div>
+                <div class="personal-info__item">
+                    <p><strong>Current Day:</strong> <span data-testid="currentDay" id="currentDay">Loading...</span>
+                    </p>
+                </div>
+            </section>
+
+
+
+
+
+            <section class="goals" id="year1">
+                <h2 class="goals__title">Year 1 Goals</h2>
+                <div class="goal">
+                    <h3 class="goal__title">Learn React and Redux</h3>
+                    <p class="goal__description">Complete advanced tutorials and build several projects to solidify my
+                        understanding.</p>
+                </div>
+                <div class="goal">
+                    <h3 class="goal__title">Master JavaScript ES6+</h3>
+                    <p class="goal__description">Deep dive into modern JavaScript features and best practices.</p>
+                </div>
+                <div class="goal">
+                    <h3 class="goal__title">Build a Complex Front End Project</h3>
+                    <p class="goal__description">Develop a comprehensive application using React for the front end</p>
+                </div>
+            </section>
+            <section class="goals" id="year2">
+                <h2 class="goals__title">Year 2 Goals</h2>
+                <div class="goal">
+                    <h3 class="goal__title">Contribute to Open Source</h3>
+                    <p class="goal__description">Start contributing to open source projects on GitHub to gain practical
+                        experience and collaborate with the community.</p>
+                </div>
+                <div class="goal">
+                    <h3 class="goal__title">Learn Next.js</h3>
+                    <p class="goal__description">Integrate Next.js into my projects to improve code quality and
+                        maintainability.</p>
+                </div>
+                <div class="goal">
+                    <h3 class="goal__title">Develop Web3 applications</h3>
+                    <p class="goal__description">Explore Web3 app development using Web3.js and Ethers.js.</p>
+                </div>
+                <div class="goal">
+                    <h3 class="goal__title">Improve Testing Skills</h3>
+                    <p class="goal__description">Focus on writing tests with Jest and React Testing Library to ensure my
+                        code is robust and reliable.</p>
+                </div>
+                <div class="goal">
+                    <h3 class="goal__title">Enhance CSS Skills</h3>
+                    <p class="goal__description">Study advanced CSS techniques, including Flexbox, Grid, and animations.
+                    </p>
+                </div>
+            </section>
+
+        </main>
+        <footer class="footer">
+            <p class="footer__text">&copy; 2024 My Tech Goals. All rights reserved.</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+
+    </html>
+
+</body>
+
+</html>
