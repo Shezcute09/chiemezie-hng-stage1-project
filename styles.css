@@ -80,7 +80,6 @@ body {
 .goals {
   margin-bottom: 40px;
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   flex-direction: column;
 }
@@ -111,6 +110,7 @@ body {
 
 .links {
   text-decoration: none;
+  color: black;
 }
 
 .personal-info {
@@ -156,8 +156,5 @@ body {
   }
   .sidebar.open {
     transform: translateY(0);
-  }
-  .main {
-    margin-left: 0;
   }
 }
